@@ -38,7 +38,7 @@ function lsGet(
 function lsIsset(
 	strName
 ) {
-	if (typeof lsGet(strName) === 'undefined')
+	if (lsGet(strName) === null)
 		return false;
 	return true;
 }
@@ -77,4 +77,3 @@ function lsUpdate(
 	lsSet(strName, strValue);
 	return true;
 }
-
