@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////
-// jsLocal.js, written by M. Nealon, 2016.
+// jsLocal.js, written by M. Nealon, 2015.
 //
 // Some functions for working with javascript localStorage.
 //
@@ -46,7 +46,7 @@ function lsIsset(
 // Initialise a value.
 //
 // If the value is currently unset it will be initialised with the
-// fiven value and true is returned.
+// given value and true is returned.
 //
 // If the value is already set it is not changed and false is
 // returned.
